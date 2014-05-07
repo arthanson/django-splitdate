@@ -2,32 +2,32 @@
 django-splitdate
 =============================
 
-.. image:: https://badge.fury.io/py/splitdate.png
-    :target: https://badge.fury.io/py/splitdate
+.. image:: https://badge.fury.io/py/djangosplitdate.png
+    :target: https://badge.fury.io/py/djangosplitdate
 
-.. image:: https://travis-ci.org/arthanson/splitdate.png?branch=master
-    :target: https://travis-ci.org/arthanson/splitdate
+.. image:: https://travis-ci.org/arthanson/djangosplitdate.png?branch=master
+    :target: https://travis-ci.org/arthanson/djangosplitdate
 
-.. image:: https://coveralls.io/repos/arthanson/splitdate/badge.png?branch=master
-    :target: https://coveralls.io/r/arthanson/splitdate?branch=master
+.. image:: https://coveralls.io/repos/arthanson/djangosplitdate/badge.png?branch=master
+    :target: https://coveralls.io/r/arthanson/djangosplitdate?branch=master
 
-Split Month Year filter widget
+A month and year split date widget and filter
 
 Documentation
 -------------
 
-The full documentation is at https://splitdate.readthedocs.org.
+The full documentation is at https://djangosplitdate.readthedocs.org.
 
 Quickstart
 ----------
 
 Install django-splitdate::
 
-    pip install splitdate
+    pip install djangosplitdate
 
 Then use it in a project::
 
-    import splitdate
+    import djangosplitdate
 
 Features
 --------

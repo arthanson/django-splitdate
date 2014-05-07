@@ -26,11 +26,11 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='django-splitdate',
     version=version,
-    description="""Split Month Year filter widget""",
+    description="""A month and year split date widget and filter""",
     long_description=readme + '\n\n' + history,
     author='Arthur Hanson',
     author_email='admin@adaptivewave.com',
-    url='https://github.com/arthanson/splitdate',
+    url='https://github.com/arthanson/djangosplitdate',
     packages=[
         'splitdate',
     ],
@@ -39,7 +39,7 @@ setup(
     ],
     license="BSD",
     zip_safe=False,
-    keywords='splitdate',
+    keywords='djangosplitdate',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Framework :: Django',

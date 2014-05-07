@@ -24,7 +24,7 @@ clean-pyc:
 	find . -name '*~' -exec rm -f {} +
 
 lint:
-	flake8 splitdate tests
+	flake8 djangosplitdate tests
 
 test:
 	python runtests.py test
@@ -33,15 +33,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source splitdate setup.py test
+	coverage run --source djangosplitdate setup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
 
 docs:
-	rm -f docs/splitdate.rst
+	rm -f docs/djangosplitdate.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ splitdate
+	sphinx-apidoc -o docs/ djangosplitdate
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	open docs/_build/html/index.html

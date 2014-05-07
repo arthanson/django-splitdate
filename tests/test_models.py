@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-test_splitdate
+test_djangosplitdate
 ------------
 
-Tests for `splitdate` models module.
+Tests for `djangosplitdate` models module.
 """
 
 import os

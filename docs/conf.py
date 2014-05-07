@@ -173,7 +173,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'splitdatedoc'
+htmlhelp_basename = 'djangosplitdatedoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -192,7 +192,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'splitdate.tex', u'django-splitdate Documentation',
+  ('index', 'djangosplitdate.tex', u'django-splitdate Documentation',
    u'Arthur Hanson', 'manual'),
 ]
 
@@ -222,7 +222,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'splitdate', u'django-splitdate Documentation',
+    ('index', 'djangosplitdate', u'django-splitdate Documentation',
      [u'Arthur Hanson'], 1)
 ]
 
@@ -236,8 +236,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'splitdate', u'django-splitdate Documentation',
-   u'Arthur Hanson', 'splitdate', 'One line description of project.',
+  ('index', 'djangosplitdate', u'django-splitdate Documentation',
+   u'Arthur Hanson', 'djangosplitdate', 'One line description of project.',
    'Miscellaneous'),
 ]
 
