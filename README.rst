@@ -1,33 +1,33 @@
 =============================
-django-month-year-filter
+django-splitdate
 =============================
 
-.. image:: https://badge.fury.io/py/djangomonthyearfilter.png
-    :target: https://badge.fury.io/py/djangomonthyearfilter
+.. image:: https://badge.fury.io/py/splitdate.png
+    :target: https://badge.fury.io/py/splitdate
 
-.. image:: https://travis-ci.org/arthanson/djangomonthyearfilter.png?branch=master
-    :target: https://travis-ci.org/arthanson/djangomonthyearfilter
+.. image:: https://travis-ci.org/arthanson/splitdate.png?branch=master
+    :target: https://travis-ci.org/arthanson/splitdate
 
-.. image:: https://coveralls.io/repos/arthanson/djangomonthyearfilter/badge.png?branch=master
-    :target: https://coveralls.io/r/arthanson/djangomonthyearfilter?branch=master
+.. image:: https://coveralls.io/repos/arthanson/splitdate/badge.png?branch=master
+    :target: https://coveralls.io/r/arthanson/splitdate?branch=master
 
-MSplit date month and year filter widget
+Split Month Year filter widget
 
 Documentation
 -------------
 
-The full documentation is at https://djangomonthyearfilter.readthedocs.org.
+The full documentation is at https://splitdate.readthedocs.org.
 
 Quickstart
 ----------
 
-Install django-month-year-filter::
+Install django-splitdate::
 
-    pip install djangomonthyearfilter
+    pip install splitdate
 
 Then use it in a project::
 
-    import djangomonthyearfilter
+    import splitdate
 
 Features
 --------

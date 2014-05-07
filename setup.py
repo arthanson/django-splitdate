@@ -4,14 +4,14 @@
 import os
 import sys
 
-import djangomonthyearfilter
+import splitdate
 
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
 
-version = djangomonthyearfilter.__version__
+version = splitdate.__version__
 
 if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
@@ -24,22 +24,22 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django-month-year-filter',
+    name='django-splitdate',
     version=version,
-    description="""MSplit date month and year filter widget""",
+    description="""Split Month Year filter widget""",
     long_description=readme + '\n\n' + history,
     author='Arthur Hanson',
-    author_email='worldnomad@gmail.com',
-    url='https://github.com/arthanson/djangomonthyearfilter',
+    author_email='admin@adaptivewave.com',
+    url='https://github.com/arthanson/splitdate',
     packages=[
-        'djangomonthyearfilter',
+        'splitdate',
     ],
     include_package_data=True,
     install_requires=[
     ],
     license="BSD",
     zip_safe=False,
-    keywords='djangomonthyearfilter',
+    keywords='splitdate',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Framework :: Django',

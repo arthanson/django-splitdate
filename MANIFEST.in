@@ -3,4 +3,4 @@ include CONTRIBUTING.rst
 include HISTORY.rst
 include LICENSE
 include README.rst
-recursive-include djangomonthyearfilter *.html *.png *.gif *js *.css *jpg *jpeg *svg *py
+recursive-include splitdate *.html *.png *.gif *js *.css *jpg *jpeg *svg *py

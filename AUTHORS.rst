@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Arthur Hanson <worldnomad@gmail.com>
+* Arthur Hanson <admin@adaptivewave.com>
 
 Contributors
 ------------

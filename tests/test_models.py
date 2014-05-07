@@ -2,20 +2,20 @@
 # -*- coding: utf-8 -*-
 
 """
-test_djangomonthyearfilter
+test_splitdate
 ------------
 
-Tests for `djangomonthyearfilter` models module.
+Tests for `splitdate` models module.
 """
 
 import os
 import shutil
 import unittest
 
-from djangomonthyearfilter import models
+from splitdate import models
 
 
-class TestDjangomonthyearfilter(unittest.TestCase):
+class TestSplitdate(unittest.TestCase):
 
     def setUp(self):
         pass

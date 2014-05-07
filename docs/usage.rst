@@ -2,6 +2,6 @@
 Usage
 ========
 
-To use django-month-year-filter in a project::
+To use django-splitdate in a project::
 
-    import djangomonthyearfilter
+    import splitdate

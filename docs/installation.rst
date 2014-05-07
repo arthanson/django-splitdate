@@ -4,9 +4,9 @@ Installation
 
 At the command line::
 
-    $ easy_install djangomonthyearfilter
+    $ easy_install splitdate
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv djangomonthyearfilter
-    $ pip install djangomonthyearfilter
+    $ mkvirtualenv splitdate
+    $ pip install splitdate
